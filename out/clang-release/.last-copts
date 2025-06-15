@@ -1,0 +1,1 @@
+-O3 -DNDEBUG=1 -g1 -ffp-contract=off   -MMD -MP -MF .d -I/opt/homebrew/include   -Wno-deprecated-register -Wno-unused-function -fno-omit-frame-pointer  -DOMNETPPLIBS_IMPORT -DINET_IMPORT -I. -I/Users/macbook/Downloads/omnetpp-6.1/samples/inet4.5/src -I/Users/macbook/Downloads/omnetpp-6.1/include

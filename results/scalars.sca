@@ -1,0 +1,467 @@
+version 3
+run General-0-20250614-21:45:51-84224
+attr configname General
+attr datetime 20250614-21:45:51
+attr datetimef 20250614-214551
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fsr.src.FSR
+attr processid 84224
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config image-path ../samples/inet4.5/images
+config network fsr.src.FSR
+config output-vector-file results/vectors.vec
+config output-scalar-file results/scalars.sca
+config seed-set 0
+config repeat 1
+config sim-time-limit 3000s
+config FSR.numNodes 25
+config FSR.playgroundX 1000m
+config FSR.playgroundY 1000m
+config FSR.node[*].maxSpeed 20mps
+config FSR.node[*].minSpeed 10mps
+config FSR.node[*].pauseTime 1s
+config FSR.node[*].transmissionRange 250m
+config FSR.node[*].fsrUpdateInterval 1.0s
+config FSR.node[*].numFisheyeScopes 3
+
+par FSR.node[0] typename "\"fsr.src.FSRNode\""
+par FSR.node[0] myId -1
+par FSR.node[0] transmissionRange 250m
+attr unit m
+par FSR.node[0] maxSpeed 20mps
+attr unit mps
+par FSR.node[0] minSpeed 10mps
+attr unit mps
+par FSR.node[0] pauseTime 1s
+attr unit s
+par FSR.node[0] playgroundX 1000m
+attr unit m
+par FSR.node[0] playgroundY 1000m
+attr unit m
+par FSR.node[0] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[0] numFisheyeScopes 3
+par FSR.node[1] typename "\"fsr.src.FSRNode\""
+par FSR.node[1] myId -1
+par FSR.node[1] transmissionRange 250m
+attr unit m
+par FSR.node[1] maxSpeed 20mps
+attr unit mps
+par FSR.node[1] minSpeed 10mps
+attr unit mps
+par FSR.node[1] pauseTime 1s
+attr unit s
+par FSR.node[1] playgroundX 1000m
+attr unit m
+par FSR.node[1] playgroundY 1000m
+attr unit m
+par FSR.node[1] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[1] numFisheyeScopes 3
+par FSR.node[2] typename "\"fsr.src.FSRNode\""
+par FSR.node[2] myId -1
+par FSR.node[2] transmissionRange 250m
+attr unit m
+par FSR.node[2] maxSpeed 20mps
+attr unit mps
+par FSR.node[2] minSpeed 10mps
+attr unit mps
+par FSR.node[2] pauseTime 1s
+attr unit s
+par FSR.node[2] playgroundX 1000m
+attr unit m
+par FSR.node[2] playgroundY 1000m
+attr unit m
+par FSR.node[2] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[2] numFisheyeScopes 3
+par FSR.node[3] typename "\"fsr.src.FSRNode\""
+par FSR.node[3] myId -1
+par FSR.node[3] transmissionRange 250m
+attr unit m
+par FSR.node[3] maxSpeed 20mps
+attr unit mps
+par FSR.node[3] minSpeed 10mps
+attr unit mps
+par FSR.node[3] pauseTime 1s
+attr unit s
+par FSR.node[3] playgroundX 1000m
+attr unit m
+par FSR.node[3] playgroundY 1000m
+attr unit m
+par FSR.node[3] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[3] numFisheyeScopes 3
+par FSR.node[4] typename "\"fsr.src.FSRNode\""
+par FSR.node[4] myId -1
+par FSR.node[4] transmissionRange 250m
+attr unit m
+par FSR.node[4] maxSpeed 20mps
+attr unit mps
+par FSR.node[4] minSpeed 10mps
+attr unit mps
+par FSR.node[4] pauseTime 1s
+attr unit s
+par FSR.node[4] playgroundX 1000m
+attr unit m
+par FSR.node[4] playgroundY 1000m
+attr unit m
+par FSR.node[4] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[4] numFisheyeScopes 3
+par FSR.node[5] typename "\"fsr.src.FSRNode\""
+par FSR.node[5] myId -1
+par FSR.node[5] transmissionRange 250m
+attr unit m
+par FSR.node[5] maxSpeed 20mps
+attr unit mps
+par FSR.node[5] minSpeed 10mps
+attr unit mps
+par FSR.node[5] pauseTime 1s
+attr unit s
+par FSR.node[5] playgroundX 1000m
+attr unit m
+par FSR.node[5] playgroundY 1000m
+attr unit m
+par FSR.node[5] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[5] numFisheyeScopes 3
+par FSR.node[6] typename "\"fsr.src.FSRNode\""
+par FSR.node[6] myId -1
+par FSR.node[6] transmissionRange 250m
+attr unit m
+par FSR.node[6] maxSpeed 20mps
+attr unit mps
+par FSR.node[6] minSpeed 10mps
+attr unit mps
+par FSR.node[6] pauseTime 1s
+attr unit s
+par FSR.node[6] playgroundX 1000m
+attr unit m
+par FSR.node[6] playgroundY 1000m
+attr unit m
+par FSR.node[6] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[6] numFisheyeScopes 3
+par FSR.node[7] typename "\"fsr.src.FSRNode\""
+par FSR.node[7] myId -1
+par FSR.node[7] transmissionRange 250m
+attr unit m
+par FSR.node[7] maxSpeed 20mps
+attr unit mps
+par FSR.node[7] minSpeed 10mps
+attr unit mps
+par FSR.node[7] pauseTime 1s
+attr unit s
+par FSR.node[7] playgroundX 1000m
+attr unit m
+par FSR.node[7] playgroundY 1000m
+attr unit m
+par FSR.node[7] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[7] numFisheyeScopes 3
+par FSR.node[8] typename "\"fsr.src.FSRNode\""
+par FSR.node[8] myId -1
+par FSR.node[8] transmissionRange 250m
+attr unit m
+par FSR.node[8] maxSpeed 20mps
+attr unit mps
+par FSR.node[8] minSpeed 10mps
+attr unit mps
+par FSR.node[8] pauseTime 1s
+attr unit s
+par FSR.node[8] playgroundX 1000m
+attr unit m
+par FSR.node[8] playgroundY 1000m
+attr unit m
+par FSR.node[8] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[8] numFisheyeScopes 3
+par FSR.node[9] typename "\"fsr.src.FSRNode\""
+par FSR.node[9] myId -1
+par FSR.node[9] transmissionRange 250m
+attr unit m
+par FSR.node[9] maxSpeed 20mps
+attr unit mps
+par FSR.node[9] minSpeed 10mps
+attr unit mps
+par FSR.node[9] pauseTime 1s
+attr unit s
+par FSR.node[9] playgroundX 1000m
+attr unit m
+par FSR.node[9] playgroundY 1000m
+attr unit m
+par FSR.node[9] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[9] numFisheyeScopes 3
+par FSR.node[10] typename "\"fsr.src.FSRNode\""
+par FSR.node[10] myId -1
+par FSR.node[10] transmissionRange 250m
+attr unit m
+par FSR.node[10] maxSpeed 20mps
+attr unit mps
+par FSR.node[10] minSpeed 10mps
+attr unit mps
+par FSR.node[10] pauseTime 1s
+attr unit s
+par FSR.node[10] playgroundX 1000m
+attr unit m
+par FSR.node[10] playgroundY 1000m
+attr unit m
+par FSR.node[10] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[10] numFisheyeScopes 3
+par FSR.node[11] typename "\"fsr.src.FSRNode\""
+par FSR.node[11] myId -1
+par FSR.node[11] transmissionRange 250m
+attr unit m
+par FSR.node[11] maxSpeed 20mps
+attr unit mps
+par FSR.node[11] minSpeed 10mps
+attr unit mps
+par FSR.node[11] pauseTime 1s
+attr unit s
+par FSR.node[11] playgroundX 1000m
+attr unit m
+par FSR.node[11] playgroundY 1000m
+attr unit m
+par FSR.node[11] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[11] numFisheyeScopes 3
+par FSR.node[12] typename "\"fsr.src.FSRNode\""
+par FSR.node[12] myId -1
+par FSR.node[12] transmissionRange 250m
+attr unit m
+par FSR.node[12] maxSpeed 20mps
+attr unit mps
+par FSR.node[12] minSpeed 10mps
+attr unit mps
+par FSR.node[12] pauseTime 1s
+attr unit s
+par FSR.node[12] playgroundX 1000m
+attr unit m
+par FSR.node[12] playgroundY 1000m
+attr unit m
+par FSR.node[12] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[12] numFisheyeScopes 3
+par FSR.node[13] typename "\"fsr.src.FSRNode\""
+par FSR.node[13] myId -1
+par FSR.node[13] transmissionRange 250m
+attr unit m
+par FSR.node[13] maxSpeed 20mps
+attr unit mps
+par FSR.node[13] minSpeed 10mps
+attr unit mps
+par FSR.node[13] pauseTime 1s
+attr unit s
+par FSR.node[13] playgroundX 1000m
+attr unit m
+par FSR.node[13] playgroundY 1000m
+attr unit m
+par FSR.node[13] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[13] numFisheyeScopes 3
+par FSR.node[14] typename "\"fsr.src.FSRNode\""
+par FSR.node[14] myId -1
+par FSR.node[14] transmissionRange 250m
+attr unit m
+par FSR.node[14] maxSpeed 20mps
+attr unit mps
+par FSR.node[14] minSpeed 10mps
+attr unit mps
+par FSR.node[14] pauseTime 1s
+attr unit s
+par FSR.node[14] playgroundX 1000m
+attr unit m
+par FSR.node[14] playgroundY 1000m
+attr unit m
+par FSR.node[14] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[14] numFisheyeScopes 3
+par FSR.node[15] typename "\"fsr.src.FSRNode\""
+par FSR.node[15] myId -1
+par FSR.node[15] transmissionRange 250m
+attr unit m
+par FSR.node[15] maxSpeed 20mps
+attr unit mps
+par FSR.node[15] minSpeed 10mps
+attr unit mps
+par FSR.node[15] pauseTime 1s
+attr unit s
+par FSR.node[15] playgroundX 1000m
+attr unit m
+par FSR.node[15] playgroundY 1000m
+attr unit m
+par FSR.node[15] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[15] numFisheyeScopes 3
+par FSR.node[16] typename "\"fsr.src.FSRNode\""
+par FSR.node[16] myId -1
+par FSR.node[16] transmissionRange 250m
+attr unit m
+par FSR.node[16] maxSpeed 20mps
+attr unit mps
+par FSR.node[16] minSpeed 10mps
+attr unit mps
+par FSR.node[16] pauseTime 1s
+attr unit s
+par FSR.node[16] playgroundX 1000m
+attr unit m
+par FSR.node[16] playgroundY 1000m
+attr unit m
+par FSR.node[16] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[16] numFisheyeScopes 3
+par FSR.node[17] typename "\"fsr.src.FSRNode\""
+par FSR.node[17] myId -1
+par FSR.node[17] transmissionRange 250m
+attr unit m
+par FSR.node[17] maxSpeed 20mps
+attr unit mps
+par FSR.node[17] minSpeed 10mps
+attr unit mps
+par FSR.node[17] pauseTime 1s
+attr unit s
+par FSR.node[17] playgroundX 1000m
+attr unit m
+par FSR.node[17] playgroundY 1000m
+attr unit m
+par FSR.node[17] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[17] numFisheyeScopes 3
+par FSR.node[18] typename "\"fsr.src.FSRNode\""
+par FSR.node[18] myId -1
+par FSR.node[18] transmissionRange 250m
+attr unit m
+par FSR.node[18] maxSpeed 20mps
+attr unit mps
+par FSR.node[18] minSpeed 10mps
+attr unit mps
+par FSR.node[18] pauseTime 1s
+attr unit s
+par FSR.node[18] playgroundX 1000m
+attr unit m
+par FSR.node[18] playgroundY 1000m
+attr unit m
+par FSR.node[18] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[18] numFisheyeScopes 3
+par FSR.node[19] typename "\"fsr.src.FSRNode\""
+par FSR.node[19] myId -1
+par FSR.node[19] transmissionRange 250m
+attr unit m
+par FSR.node[19] maxSpeed 20mps
+attr unit mps
+par FSR.node[19] minSpeed 10mps
+attr unit mps
+par FSR.node[19] pauseTime 1s
+attr unit s
+par FSR.node[19] playgroundX 1000m
+attr unit m
+par FSR.node[19] playgroundY 1000m
+attr unit m
+par FSR.node[19] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[19] numFisheyeScopes 3
+par FSR.node[20] typename "\"fsr.src.FSRNode\""
+par FSR.node[20] myId -1
+par FSR.node[20] transmissionRange 250m
+attr unit m
+par FSR.node[20] maxSpeed 20mps
+attr unit mps
+par FSR.node[20] minSpeed 10mps
+attr unit mps
+par FSR.node[20] pauseTime 1s
+attr unit s
+par FSR.node[20] playgroundX 1000m
+attr unit m
+par FSR.node[20] playgroundY 1000m
+attr unit m
+par FSR.node[20] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[20] numFisheyeScopes 3
+par FSR.node[21] typename "\"fsr.src.FSRNode\""
+par FSR.node[21] myId -1
+par FSR.node[21] transmissionRange 250m
+attr unit m
+par FSR.node[21] maxSpeed 20mps
+attr unit mps
+par FSR.node[21] minSpeed 10mps
+attr unit mps
+par FSR.node[21] pauseTime 1s
+attr unit s
+par FSR.node[21] playgroundX 1000m
+attr unit m
+par FSR.node[21] playgroundY 1000m
+attr unit m
+par FSR.node[21] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[21] numFisheyeScopes 3
+par FSR.node[22] typename "\"fsr.src.FSRNode\""
+par FSR.node[22] myId -1
+par FSR.node[22] transmissionRange 250m
+attr unit m
+par FSR.node[22] maxSpeed 20mps
+attr unit mps
+par FSR.node[22] minSpeed 10mps
+attr unit mps
+par FSR.node[22] pauseTime 1s
+attr unit s
+par FSR.node[22] playgroundX 1000m
+attr unit m
+par FSR.node[22] playgroundY 1000m
+attr unit m
+par FSR.node[22] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[22] numFisheyeScopes 3
+par FSR.node[23] typename "\"fsr.src.FSRNode\""
+par FSR.node[23] myId -1
+par FSR.node[23] transmissionRange 250m
+attr unit m
+par FSR.node[23] maxSpeed 20mps
+attr unit mps
+par FSR.node[23] minSpeed 10mps
+attr unit mps
+par FSR.node[23] pauseTime 1s
+attr unit s
+par FSR.node[23] playgroundX 1000m
+attr unit m
+par FSR.node[23] playgroundY 1000m
+attr unit m
+par FSR.node[23] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[23] numFisheyeScopes 3
+par FSR.node[24] typename "\"fsr.src.FSRNode\""
+par FSR.node[24] myId -1
+par FSR.node[24] transmissionRange 250m
+attr unit m
+par FSR.node[24] maxSpeed 20mps
+attr unit mps
+par FSR.node[24] minSpeed 10mps
+attr unit mps
+par FSR.node[24] pauseTime 1s
+attr unit s
+par FSR.node[24] playgroundX 1000m
+attr unit m
+par FSR.node[24] playgroundY 1000m
+attr unit m
+par FSR.node[24] fsrUpdateInterval 1s
+attr unit s
+par FSR.node[24] numFisheyeScopes 3
+par FSR typename "\"fsr.src.FSR\""
+par FSR numNodes 25
+par FSR playgroundX 1000m
+attr unit m
+par FSR playgroundY 1000m
+attr unit m
+
